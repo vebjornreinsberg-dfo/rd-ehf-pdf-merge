@@ -1,0 +1,7 @@
+
+services:
+  ehf-pdf-merge:
+    build: .
+    container_name: ehf-pdf-merge
+    volumes:
+      - "C:/Temp/EHF:/app/files"
